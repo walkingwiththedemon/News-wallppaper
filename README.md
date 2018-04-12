@@ -1,2 +1,2 @@
-# adminpanel
-Admin panel written in React + Redux
+# Adding news project
+Adding news written in React + Redux
