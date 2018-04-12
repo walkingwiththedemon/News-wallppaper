@@ -1,0 +1,64 @@
+@import "stylesheets/helpers/mixins"
+@import "stylesheets/helpers/fonts"
+@import "stylesheets/helpers/optimize"
+
+/**
+ * Site settings
+ */
+
+$site-width: 75.0rem
+$main-color: #0079c2
+$blue-color: #4cabb1
+$green-color: #69c7ad
+$text-color: #232323
+
+
+/**
+ * Media settings
+ */
+$lg: 75.0em
+$md: 62.0em
+$sm: 48.0em
+$xs: 36.0em
+
+@import "stylesheets/container"
+@import "stylesheets/link"
+@import "stylesheets/button"
+@import "stylesheets/input"
+@import "stylesheets/select"
+@import "stylesheets/textarea"
+@import "stylesheets/title"
+@import "stylesheets/subtitle"
+@import "stylesheets/form"
+@import "stylesheets/page"
+@import "stylesheets/news-list"
+@import "stylesheets/article"
+@import "stylesheets/ui"
+
+
+.time-ago
+	display: inline-block
+	font-size: 1rem
+	line-height: 1
+
+	&__icon
+		display: inline-block
+		margin-right: 0.625rem
+		vertical-align: middle
+
+	&__text
+		display: inline-block
+		vertical-align: middle
+
+
+.sort-menu
+	display: flex
+	width: 100%
+	justify-content: space-between
+
+	&__item
+		width: 33.33333%
+		background-color: $main-color
+
+	&__button
+		width: 100%

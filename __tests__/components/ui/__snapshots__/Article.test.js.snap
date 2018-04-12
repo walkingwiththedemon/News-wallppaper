@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Article /> UI Component Renders correct properties 1`] = `
+<article
+  className="news-list__item article"
+  style={
+    Object {
+      "backgroundColor": "#262626",
+    }
+  }
+>
+  <div
+    className="article__delete"
+  >
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      <FaTrashO
+        size={24}
+      />
+    </button>
+  </div>
+  <div
+    className="article__inner"
+  >
+    <div
+      className="article__title"
+    >
+      test
+    </div>
+    <div
+      className="article__text"
+    >
+      test
+    </div>
+    <div
+      className="article__footer"
+    >
+      <div
+        className="article__footer"
+      >
+        <div
+          className="ui-statistic"
+        >
+          <div
+            className="ui-statistic__item"
+          >
+            <div
+              className="ui-statistic__items"
+            >
+              <div
+                className="ui-statistic__item"
+              >
+                <Like
+                  amountLikes={25}
+                  onClick={[Function]}
+                  selected={false}
+                />
+              </div>
+              <div
+                className="ui-statistic__item"
+              >
+                <Comment
+                  comments={1}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="ui-statistic__item ui-statistic__item--align--right"
+          >
+            <PublicationDate
+              timestamp="01.02.10"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+`;

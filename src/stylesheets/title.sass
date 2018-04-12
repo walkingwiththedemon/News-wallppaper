@@ -1,0 +1,24 @@
+.title
+	display: inline-block
+	font-size: 64px
+	font-weight: 400
+	line-height: 1
+	letter-spacing: 1.2px
+	text-transform: uppercase
+	color: #fff
+
+	&::after
+		margin-top: 1.875rem
+		margin-right: auto
+		margin-left: auto
+		display: block
+		width: 20%
+		height: 3px
+		content: ""
+		background-color: #fff
+
+	&_blue
+		color: $main-color
+
+		&:after
+			background-color: $main-color

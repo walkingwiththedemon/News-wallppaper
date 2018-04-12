@@ -1,0 +1,46 @@
+.article
+	position: relative
+	display: flex
+	overflow: hidden
+	flex-flow: column nowrap
+	font-size: 1.0rem
+	text-align: left
+	color: #fff
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,.25)
+	transition: .25s ease
+	transition-property: color, background-color
+	align-items: center
+	justify-content: center
+
+	&--image
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+
+	&__delete
+		position: absolute
+		top: 0.9375rem
+		right: 0.9375rem
+
+	&__inner
+		margin: auto
+		padding: 3.125em
+		width: 100%
+
+	&__title
+		margin-bottom: 0.9375em
+		font-size: 1.25em
+		font-weight: 700
+		line-height: 1.5
+		text-transform: uppercase
+		color: inherit
+
+	&__text
+		margin-right: auto
+		margin-left: auto
+		font-size: 1em
+		color: inherit
+
+	&__footer
+		margin-top: 2.5em
+		width: 100%

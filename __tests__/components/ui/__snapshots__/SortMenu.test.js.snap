@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortMenu /> UI Component Renders Correctly 1`] = `
+<div
+  className="page__sort"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="sort-menu"
+    >
+      <div
+        className="sort-menu__item"
+        key="0"
+      >
+        <button
+          className="button sort-menu__button"
+          onClick={[Function]}
+        >
+          date
+        </button>
+      </div>
+      <div
+        className="sort-menu__item"
+        key="1"
+      >
+        <button
+          className="button button--state--active sort-menu__button"
+          onClick={[Function]}
+        >
+          like
+        </button>
+      </div>
+      <div
+        className="sort-menu__item"
+        key="2"
+      >
+        <button
+          className="button sort-menu__button"
+          onClick={[Function]}
+        >
+          comment
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
